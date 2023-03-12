@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-12T17:34:20.511Z",
+        "line": 6,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "saucedemo-login;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029999200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the SauceDemo login page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_is_on_the_SauceDemo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182990500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid username and password",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109015500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157985200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is redirected to the SauceDemo inventory page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_is_redirected_to_the_SauceDemo_inventory_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-12T17:34:23.070Z",
+        "line": 12,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "saucedemo-login;login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1465001400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on the SauceDemo login page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_is_on_the_SauceDemo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176998500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters invalid username and password",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_enters_invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174005400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Error message is displayed",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-12T17:34:24.955Z",
+        "line": 18,
+        "name": "Add an item to cart,checkout,logout",
+        "description": "",
+        "id": "saucedemo-login;add-an-item-to-cart-checkout-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1506998700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on the login page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188989500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.i_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108002700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the login button",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12001400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am redirected to the home page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.i_am_redirected_to_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78994400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User open item",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_open_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I add an item to the cart",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.i_add_an_item_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65000800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the item is added to the cart",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.the_item_is_added_to_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63007400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User proceeds to checkout",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.User_proceeds_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270993300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User fills out the checkout form with valid data",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_fills_out_the_checkout_form_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50002000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User confirms the purchase",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_confirms_the_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13012300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should see the confirmation page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_should_see_the_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58997600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User redirected to the home page",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.User_redirected_to_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61985000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks the menu button",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.User_clicks_the_menu_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d110.0.5481.178)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RENDYNURHUDA\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\\Users\\Asus\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:33747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8bb8682af8d7eedbe0b83eca38399d13\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat StepDefinition.BDD_Steps_Saucedemo.user_clicks_the_logout_button(BDD_Steps_Saucedemo.java:149)\r\n\tat ✽.User clicks the Logout button(file:///C:/Users/Asus/eclipse-workspace/BDDTestSaucedemo/src/test/resources/Features/BDD_Steps_Saucedemo.feature:32)\r\n",
+              "duration": 40003200,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User clicks the Logout button",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_clicks_the_logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should be logged out successfully",
+            "match": {
+              "location": "StepDefinition.BDD_Steps_Saucedemo.user_should_be_logged_out_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Saucedemo Login",
+    "description": "  As a user\n  I want to login to the Saucedemo website\n  So I can add items to cart, checkout and logout",
+    "id": "saucedemo-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BDD_Steps_Saucedemo.feature",
+    "tags": []
+  }
+]
